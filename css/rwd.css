@@ -1,0 +1,810 @@
+/* RWD */
+
+@media screen and (max-width:1485px) {
+    .cards  {
+        flex-grow: 1;
+    }
+   
+    .cards a {
+      
+    }
+    .cards h1 {
+        font-family: FuturaBold;
+        font-size: 25pt;
+    }
+   
+    .cards p {
+       font-family: FuturaRegular;
+       font-size: 14pt;
+       margin-top: 25px;
+    }
+
+    .cards div {
+        margin-left: 40px;
+    }
+
+}
+
+@media screen and (max-width:1280px) {
+    .cards h1 {
+        font-family: FuturaBold;
+        font-size: 20pt;
+    }
+
+    .tutor h1 {
+        font-size: 35pt;
+    }
+
+    .tutor p {
+        font-size: 15pt;
+    }
+
+    .why-list li {
+        padding: 11px;
+    }
+
+    .blue {
+        margin-top: 100px;
+        background-color: #359EEF;
+        height: 600px;
+        
+    }
+    
+    .blue h1 {
+        padding:50px 0 20px 0;
+        font-family: FuturaBold;
+        font-size: 35pt;
+        color: white;
+        margin-left: 100px;
+        /* margin-top: 50px; */
+    }
+
+    .why-list {
+        margin:100px 0 0 400px;
+        font-family: FuturaMedium;
+        font-size: 15pt;
+        color: white;
+        
+    }
+
+    .blue p {
+        color: white;
+        font-family: FuturaRegular;
+        /* padding: 0 0 0 100px; */
+        font-size: 15pt;
+        margin-left: 100px;
+        padding: 0;
+        margin-top: -20px;
+        /* max-width:400px; */
+    }
+    .blue input {
+        margin: 20px 0 0 100px;
+        border:2px solid #ffffff;
+        /* background-color: #fff; */
+        font-family: FuturaMedium;
+        font-size: 24px;
+        border-radius: 3px;
+    
+    }
+    .cards p {
+        font-family: FuturaRegular;
+        font-size: 14pt;
+        margin-top: 20px;
+     }
+
+     .cards div {
+        margin-left: 30px;
+    }
+    .hero h1 {
+        font-size: 42pt;
+    }
+
+    .what h1 {
+        font-size: 27pt;
+    }
+
+   .foot-1 {
+        margin:40px 0 0 60px;
+  }
+
+  .social {
+        margin-left: 60px;
+  }
+
+
+
+
+  @media only screen and (max-width:1154px) {
+    .field input {
+        width:  200px;
+    }
+
+    .field select {
+        width:  200px;
+    }
+
+    .add {
+        width:420px !important;
+    }
+
+    #fullname  {
+        width: 420px !important;
+    }
+    #email  {
+        width: 420px !important;
+    }
+    
+    .train {
+        width:420px !important ;  
+        height: 50px !important; 
+        padding: 5px !important;
+    }
+    /* .reg-img {
+        display: none;
+    } */
+
+    .field button {
+        width: 420px;
+        /* margin-top: 40px; */
+    }
+
+    .forms {
+        margin-left: 20px;
+    }
+
+    .forms h2 {
+        font-size: 20px;
+    }
+}
+
+   
+
+}
+
+@media screen and (max-width:1028px) {
+    .cards h1 {
+        font-family: FuturaBold;
+        font-size: 16pt;
+        margin: 10px;
+    }
+
+ /* .card2,.card3 {
+        padding: 0;
+    } */
+
+    .cards p {
+        font-size: 12pt;
+        margin-top: 20px;
+        display: block;
+        margin: 10px;
+    }
+
+    .tutor h1 {
+        font-size: 30pt;
+    }
+
+    .tutor p {
+        font-size: 13pt;
+    }
+    .cards div {
+        margin-left: 20px;
+    }
+
+    .what h1 {
+        font-size: 25pt;
+    }
+
+    .what p {
+        font-size: 13pt;
+    }
+
+    .blue h1 {
+        font-size: 25pt;
+    }
+
+    .blue p {
+        font-size: 13pt;
+        display: block;
+        
+    }
+
+
+    .field input {
+        width:  420px;
+    }
+
+    .field select {
+        width:  420px;
+    }
+
+    .add {
+        width: 420px !important;
+    }
+    
+    .train {
+        width:420px !important ;  
+        height: 50px !important; 
+        padding: 5px !important;
+    }
+    .reg-img {
+        display: none;
+    }
+
+    .field button {
+        width: 420px;
+        margin-top: 40px;
+    }
+
+    .forms {
+        margin-left: 0;
+        }
+
+    .holder {
+        /* padding: 20px; */
+    }
+   
+
+
+
+}
+
+@media screen and (max-width:900px) {
+    
+    .hero h1 {
+        font-size: 38pt;
+    }
+    .hero p{
+        font-size:16pt;
+    }
+
+    .blue p {
+        /* max-width: 350px; */
+        font-size: 12pt;
+        width: 30ch;
+
+        
+    }
+    .why-list {
+        margin:100px 0 0 200px;
+        font-family: FuturaMedium;
+        font-size: 13pt;
+        color: white;   
+    }
+ .add {
+        width: 400px !important;
+    }
+    
+    .train {
+        width:400px !important ;  
+        height: 50px !important; 
+        padding: 5px !important;
+    }
+
+    .about {
+        padding: 10px 0 0 0;
+    }
+
+    .about h1 {
+        font-size: 30pt;
+    }
+    .vision {
+        flex-wrap: wrap;
+        flex-grow: 1;
+        margin: 25px 0 20px 0;
+    }
+
+    .vision div {
+        margin: 0;
+    }
+
+    .vision-text {
+        width: 500px;
+        padding: 30px;
+        margin: 0;
+    }
+
+    .vision-text p {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .vision-text h1 {
+        text-align: center;
+        font-size: 27pt;
+
+    }
+
+}
+
+
+@media screen and (max-width:757px) {
+    .flex a {
+        font-size: 14px;
+    }
+
+    .social img {
+        width: 25px;
+        height: 25px;;
+    }
+    .social {
+        min-width: 150px;
+    }
+    .blue {
+        height: 500px;
+        
+    }
+/* 
+    .field {
+        display: inline;
+    } */
+
+    .field input {
+        width:  400px;
+    }
+
+    .field select {
+        width:  400px;
+    }
+
+    .add {
+        width:400px !important;
+    }
+    
+    #fullname  {
+        width: 400px !important;
+    }
+    #email  {
+        width: 400px !important;
+    }
+    .train {
+        width:400px !important ;  
+        height: 50px !important; 
+        padding: 5px !important;
+    }
+    .reg-img {
+        display: none;
+    }
+
+    .field button {
+        width: 400px;
+        margin-top: 40px;
+    }
+
+    .forms {
+        margin-left: 0;
+    }
+   
+}
+
+@media screen and (max-width:600px) {
+    .blue {
+        margin-top: 100px;
+        background-color: #359EEF;
+        height: auto;
+        padding: 30px;
+        
+    }
+
+    .what {
+        margin-bottom: 25px;
+    }
+
+    .blue h1 {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    
+
+    .blue-flex {
+
+        flex-wrap: wrap;
+              
+    }
+
+    .why-list  {
+        display: none;
+    }
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .cards h1 {
+        font-size: 25pt;
+    }
+    .cards p {
+        font-size: 16pt;
+        margin: 20px 0 20px 10px;
+    }
+
+    .cards a {
+        font-size: 30px;
+        color: #EA526F;
+    }
+
+    .card1 a {
+        color: white;
+    }
+
+    .cards div {
+        margin-top: 20px;
+        max-width: 550px;
+        margin-left: 0px;
+        box-shadow: 0px 2px 15px rgba(153,153,153,0.5);
+    }
+
+    
+    .hero {
+        background-position-x: center;
+    }
+
+    .hero h1 {
+        font-size: 30pt;
+        width: 12ch;
+    }
+
+    .hero p {
+          font-size: 18px;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+        flex-grow: 1;
+        /* justify-content: flex-start; */
+    }
+
+    .flex div {
+        /* width: 150px; */
+        margin: 20px;
+    }
+
+    .foot1 li {
+        font-size: 14px;
+    }
+    .futer {
+        padding: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width:585px) {
+    .hero {
+        height:500px;
+    }
+    
+    .naf label {
+        display: block;
+        cursor:pointer;
+    }
+
+    .top {
+        float: none;
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        padding: 0;
+        padding-top: 20px;
+        display: none;
+    }
+
+    .top a {
+        text-align: center;
+        border-bottom:1px solid rgba(234, 82, 111, 0.3);
+        float: none;
+        display: block;
+        margin: 0;
+
+    }
+
+    #toggle:checked + .top {
+        display: block;
+    }
+
+    .blue-flex h1 {
+        padding:0;
+        margin:0 0 20px 0;
+        text-align: center;
+
+    }
+
+    .papi p {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .blue input {
+        justify-content: center;
+    }
+
+    .mob-but {
+        text-align: center;
+        width: 100%;
+       
+    }
+
+    .mob-but input {
+        margin: 30px 0 0 0;
+    }
+
+
+    .blue-flex  div {
+        /* align-content: center; */
+        width: 100%
+    }
+
+    .hero {
+        padding-left: 0;
+    
+    }
+
+    .hero h1 {
+        font-size: 25pt;
+        text-align: center;
+        width: 100%;
+        padding-top: 30px;
+        
+    }
+
+    .hero p {
+        /* text-align: center; */
+       font-size: 16px;
+       text-align: center;
+    }
+
+    .hero-but {
+        text-align: center;
+    }
+    .what h1 {
+        font-size: 25px;
+        margin: 20px 0 0 0;
+        padding: 0;
+       
+    }
+
+    .what p {
+        font-size: 14px;
+        margin: 20px 0 0 0;
+        width: 100%;
+        text-align: center;
+      
+    }
+
+    .what {
+        flex-grow: 1;
+        flex-wrap: wrap;
+        padding: 30px 60px;
+    }
+
+    .what img {
+        display: none;
+    }
+
+    .cards h1 {
+        font-size: 18pt;
+    }
+
+    .cards p {
+        font-size: 14pt;
+    }
+
+    .cards a {
+        font-size: 15pt;
+    }
+
+    .field input {
+        width:  320px;
+    }
+
+    .field select {
+        width:  320px;
+    }
+
+    .add {
+        width:320px !important;
+    }
+    
+    .train {
+        width:320px !important ;  
+        height: 50px !important; 
+        padding: 5px !important;
+    }
+    .reg-img {
+        display: none;
+    }
+
+    .field button {
+        width: 350px;
+        margin-top: 40px;
+    }
+
+    .forms {
+        margin-left: 0;
+    }
+
+    .holder {
+        padding-left: 20px;
+        /* padding-right: 20px; */
+    }
+
+    #fullname  {
+        width: 320px !important;
+    }
+    #email  {
+        width: 320px !important;
+    }
+   
+
+
+}
+
+@media only screen and (max-width:445px) {
+    .item h1 {
+        font-size: 18pt;
+    }
+
+    .item h3 {
+        font-size: 12px;
+    }
+
+    .item p {
+        font-size: 13px;
+    } 
+
+    .item {
+        padding:25px; 
+    }
+
+    .field input {
+        width:  280px;
+    }
+
+    .field select {
+        width:  280px;
+    }
+
+    .add {
+        width:280px !important;
+    }
+    
+    .train {
+        width:280px !important ;  
+        height: 50px !important; 
+        padding: 5px !important;
+    }
+    .reg-img {
+        display: none;
+    }
+
+    .field button {
+        width: 280px;
+        margin-top: 40px;
+    }
+
+    .forms {
+        margin-left: 0;
+    }
+
+    .holder {
+        min-width: 90%;
+    }
+
+   
+}
+
+@media only screen and (max-width:350px) {
+    .field input {
+        width:  250px;
+    }
+
+    .field select {
+        width:  250px;
+    }
+
+    .add {
+        width:250px !important;
+    }
+    #fullname  {
+        width: 250px !important;
+    }
+    #email  {
+        width: 250px !important;
+    }
+    
+    .train {
+        width:250px !important ;  
+        height: 50px !important; 
+        padding: 5px !important;
+    }
+    .reg-img {
+        display: none;
+    }
+
+    .field button {
+        width: 250px;
+        margin-top: 40px;
+    }
+
+    .forms {
+        margin-left: 0;
+        /* text-align: center; */
+    }
+
+    .forms h2 {
+        font-size: 20px;
+    }
+
+    .holder {
+        min-width: 90%;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:293px) {
+    .hero h1 {
+        font-size: 25px;
+    }
+
+    .hero p {
+        font-size: 13px;
+    }
+
+    .hero-but button {
+        width: 180px;
+    }
+
+    .mob-but input {
+        width: 180px;
+        height: 55px;
+    }
+
+    .item-1 div {
+        width: 150px;
+        height: 100px;
+    }
+
+    .item-2 div {
+        width: 150px;
+        height: 100px;
+    }
+
+    .item div {
+        max-width: 300px;
+        
+    }
+
+    .field input {
+        width: 220px;
+        height: 45px;
+    }
+
+    .field select {
+        width: 220px;
+        
+    }
+
+    .field button {
+        width: 220px;
+        margin-top: 40px;
+    }
+
+    .forms h2 {
+        font-size: 18px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .holder {
+        margin: 0 auto;
+    }
+
+
+}
+
+
+
+

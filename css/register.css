@@ -1,0 +1,141 @@
+
+
+@font-face {
+    font-family:FuturaRegular;
+    src: url(../fonts/FuturaLT.ttf);
+}
+
+@font-face {
+    font-family:FuturaMedium;
+    src: url(../fonts/FuturaLTMedium.ttf);
+}
+@font-face {
+    font-family:FuturaBold;
+    src: url(../fonts/FuturaLTBold.ttf);
+}
+
+@font-face {
+    font-family: FuturaLight;
+    src: url(../fonts/FuturaLTLight.ttf);
+}
+
+body  {
+    background-color: #F3F3F3;
+}
+
+
+.field {
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: FuturaRegular;
+
+}
+
+.field select {
+    width: 250px;
+    height: 50px;
+    padding: 5px;
+    font-family: FuturaRegular;
+    font-size: 12pt;
+    background-color: rgba(238, 238, 238 , 0.7);
+    border: 1px solid rgba(186, 185, 185, 0.5) ;
+    /* opacity: 0.5; */
+   }
+
+.field label {
+    display: block;
+    margin: 4px;
+    text-align: left
+}
+
+.field input {
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+    font-family: FuturaRegular;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid rgba(186, 185, 185, 0.5) ;
+    background-color: rgba(238, 238, 238 , 0.7)
+    /* opacity: 0.5; */
+    
+}
+
+#email {
+    width: 520px;
+}
+
+#fullname {
+    width: 520px;
+}
+
+.field input:focus {
+    border: 1px solid #EA526f;
+}
+
+.reg-img {
+    background: url(../img/Register.png);
+    width: 400px;
+    height: 720px;
+    background-size:cover;
+}
+
+
+.holder {
+   
+    display: flex;
+    justify-content: center;
+    padding-top: 140px;
+    background-color: #fff;
+    max-width: 85%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+.forms {
+    margin-left: 40px;
+    /* border:1px solid #EA526f;
+    align-content: center;
+    padding-left: 20px; */
+    color: #313131;
+    text-align: center;
+}
+
+.forms h2 {
+   font-family: FuturaRegular;
+   margin: 0;
+   text-align: center;
+}
+
+select:focus {
+    outline: none !important;
+    border: 1px solid #EA526f;
+}
+
+button {
+    width: 520px;
+    height: 50px;
+    outline: none;
+    background-color:#EA526f;
+    border: 0;
+    color: white;
+    font-family: FuturaMedium;
+    font-size: 22px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.add {
+    width:520px !important;
+}
+
+.train {
+    width:520px !important ;  
+    height: 50px !important; 
+    padding: 5px !important;
+}
+

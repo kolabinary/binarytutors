@@ -1,0 +1,572 @@
+@font-face {
+    font-family:FuturaRegular;
+    src: url(../fonts/FuturaLT.ttf);
+}
+
+@font-face {
+    font-family:FuturaMedium;
+    src: url(../fonts/FuturaLTMedium.ttf);
+}
+@font-face {
+    font-family:FuturaBold;
+    src: url(../fonts/FuturaLTBold.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Futura', sans-serif;
+    -webkit-font-smoothng:antialiased;
+}
+
+.top {
+    font-family: FuturaRegular;
+    padding-right: 50px;
+    font-size: 18px;
+    line-height: 70px;
+}
+
+
+.top a {
+    
+    text-decoration: none;
+    float: right;
+    margin: 0px 20px 0 20px;
+    color: rgba(0,0,0,0.8);
+    text-align: right;
+
+
+}
+
+.top a:hover {
+    color: #1B81D1;
+}
+
+.top a:active {
+    color: #1B81D1;
+}
+
+.logo {
+    
+    max-width: 300px;
+    float: left;
+    padding-left: 50px;
+    font-family: FuturaBold;
+    font-size: 20px;
+
+}
+
+.naf {
+    /* padding-top: 20px; */
+    background-color: white;
+    height: 70px;
+    box-shadow: 0px 1px 10px rgba(153,153,153,0.2);
+    width: 100vw;
+    position: fixed;
+    z-index: 9;
+    line-height: 70px;
+    text-align: right;
+}
+
+.naf label {
+    margin:0 49px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    
+}
+
+#toggle {
+    display: none;
+}
+
+.hero {
+  background: url(../img/Hero.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 680px;
+  /* width: 100%; */
+  padding: 55px 0 0 50px;
+  color: white;
+}
+.hero h1 {
+   font-family: FuturaBold;
+   padding-top: 100px;
+  
+   font-size: 45pt;
+}
+
+.hero p {
+    font-family: FuturaRegular;
+    font-size: 18pt;
+}
+
+.hero button {
+    margin-top: 30px;
+    height: 60px;
+    width: 250px;
+    background-color:#359EEF;
+    border: 0px;
+    color: white;
+    font-family: FuturaRegular;
+    font-size: 18pt;
+}
+
+.hero button:hover {
+    cursor: pointer;
+    background-color: #1B81D1;
+}
+
+.what{
+    
+    display: flex;
+    margin: 0 auto;
+    /* text-align: center; */
+    max-width: 900px;
+    margin-bottom: 100px;
+    justify-content: center;
+    padding:40px;
+}
+
+.what p {
+    font-family: FuturaRegular;
+    margin: 120px 0px 0 20px;
+    font-size: 16pt;
+    color: #515151;
+}
+.what h1 {
+    font-family: FuturaBold;
+    margin-top: 100px; 
+    /* margin-left: 50px;    */
+    /* padding-left: 200px; */
+    position: relative;
+    max-width: 400px;
+    font-size: 30pt;
+    color: #515151;
+}
+
+.what img {
+    /* position: absolute;
+   left : 450px;
+   top: 100px; */
+  margin: 120px 20px 0 30px;
+   
+}
+
+.cards div {
+    max-width: 350px;
+    /* min-width: 250px; */
+    max-height: 400px;
+    margin-left: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px rgba(153,153,153,0.4);
+    flex-grow: 1;
+    padding: 20px;
+}
+.cards  {
+     display: flex;
+     max-width: 80%;
+     margin: 0 auto;
+     color:#515151;
+     margin-bottom: 10px;
+     justify-content: center;
+    
+ }
+
+ .cards a {
+     text-decoration: none;
+     color: white;
+     /* margin-top: 20px; */
+ }
+ .cards h1 {
+     font-family: FuturaBold;
+     font-size: 28pt;
+     margin:10px;
+ }
+
+ .cards p {
+    font-family: FuturaRegular;
+    font-size: 15pt;
+    margin-top: 50px;
+    margin: 10px;
+    display: block;
+
+
+ }
+
+ .card1  {
+     background-color:#EA526F;
+     /* margin-left: 50px; */
+     
+     /* padding: 20px 0 0 50px;  */
+     color: white;
+
+ }
+ 
+ 
+ .card1 p {
+    /* margin-top: 65px; */
+}
+ .card2 {
+     background-image: url(../img/BlueLine.svg);
+     background-repeat: no-repeat;
+     background-position: 10px;
+     background-size: 10px 500px; 
+    /* margin-left: 50px; */
+    
+    /* padding: 20px 0px 0 50px;  */
+}
+
+.card2 a {
+    color: #515151;
+}
+
+.card3 {
+    background-image: url(../img/PurpleLine.svg);
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 10px 500px; 
+   /* margin-left: 50px; */
+   
+   /* padding: 20px 0px 0 50px;  */
+}
+
+.card3 a {
+    color: #515151;
+}
+
+.blue {
+    margin-top: 100px;
+    background-color: #359EEF;
+    height: 650px;
+    
+}
+
+.blue h1 {
+    padding: 70px 0 0 200px;
+    font-family: FuturaBold;
+    font-size: 40pt;
+    color: white;
+}
+
+.why-list {
+    margin:100px 0 0 400px;
+    font-family: FuturaMedium;
+    font-size: 20pt;
+    color: white;
+    
+}
+
+.why-list li {
+    padding: 15px;
+}
+
+.blue p {
+    color: white;
+    font-family: FuturaRegular;
+    padding: 0 0 0 200px;
+    font-size: 20pt;
+    text-align: justify;
+}
+
+.blue input {
+    width: 220px;
+    height: 60px;
+    margin: 20px 0 0 200px;
+    border:2px solid #ffffff;
+    /* background-color: #fff; */
+    font-family: FuturaMedium;
+    font-size: 24px;
+    transition: font-size 0.5s;
+    -webkit-transition: font-size 0.5s;
+    background: transparent;
+    color: white;
+    border-radius: 3px;
+
+}
+
+.blue input:hover {
+    cursor: pointer;
+    font-size: 28px;
+    background-color: #fff;
+    color: #515151;
+}
+
+.blue-flex {
+    display: flex;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.blue-flex a {
+    color: white;
+    text-decoration: none;
+}
+
+.blue-flex a:hover {
+    text-decoration:underline;
+}
+
+.blue-flex div {
+    margin: 0;
+    padding: 0;
+}
+
+.tutor div {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tutor {
+    margin-top: 50px;
+}
+
+.tutor h1 {
+ 
+    font-family: FuturaBold;
+    font-size: 40pt;
+    color: #359EEF;
+}
+
+.tutor p {
+ 
+    font-family: FuturaMedium;
+    font-size: 17pt;
+    color: #515151
+}
+
+.tutorflex {
+
+    display: flex;
+    height: 650px;
+
+}
+.tutorflex h1 {
+    color: #515151;
+    font-size: 20pt;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px !important;
+}
+.tutorflex h3 {
+    margin: 0;
+    padding: 0;
+    font-family:FuturaRegular;
+    color: #515151;
+    /* margin-top: -20px; */
+}
+
+.teachers aside {
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px rgba(153,153,153,0.4);
+    margin: 40px;
+    padding-top: 15px;
+    height: 400px;
+    width: 350px;
+
+}
+
+.teachers {
+    display: flex; 
+    justify-content: center;
+   
+   
+}
+
+.teachers h1 {
+    font-family: FuturaBold;
+    font-size: 23pt;
+    text-align: center;
+    color: #515151;
+    margin: 10px 0 25px 0;
+}
+
+.teachers p {
+   text-align: center;
+   font-family: FuturaRegular;
+   color: #515151;
+   margin-top: -25px;
+   padding: 0 20px 0 20px;
+   font-size: 14px;
+
+}
+
+.teachers h3 {
+    text-align: center;
+    font-family: FuturaBold;
+    color: #585858;
+    font-size: 15px;
+    margin: -25px 0 40px 0;
+
+  
+ 
+ }
+
+.teacher1 div {
+    background: url(../img/sample.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.futer {
+    /* width: 100%; */
+    background-color:#2A2A2A;
+    color: white;
+    /* margin: 50px; */
+    /* height: 400px; */
+    padding: 50px;
+}
+
+.flex {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    
+    
+
+}
+
+.flex li{
+    margin: 20px 0 20px 0;
+}
+.flex h4 {
+    font-family: FuturaMedium;
+
+}
+/* 
+.flex div {
+    
+} */
+
+.flex li {
+    list-style: none;
+    font-family: Futuraregular;
+
+}
+
+.flex a {
+    text-decoration: none;
+    color: white;
+}
+
+.social {
+    margin:40px 0 0 0;
+} 
+
+.social li  {
+    display: inline-block;
+    margin: 5px;
+}
+
+.foot-1 {
+    margin: 40px 80px 0 0px;
+
+}
+
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0, 0.5);
+}
+
+.modal-content {
+    background-color: #f4f4f4;
+    margin: 10% auto;
+    padding: 20px;
+    width: 70%;
+    height: auto;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0, 0.2), 
+    0 7px 20px 0 rgba(0,0,0, 0.17);
+    
+}
+
+#closeBtn {
+    color: #585858;
+    float: right;
+    font-size: 30px;
+    
+}
+
+#closeBtn:hover,#closeBtn:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-img1 {
+    background: url(../img/home.png);
+    height: 300px;
+    margin-top: 30px;
+    width: 35%;
+    margin-right: 40px;
+    
+    
+}
+
+.modal-flex {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 20px;
+}
+
+.modal-text {
+    max-width: 500px;
+    height: 200px;
+       
+}
+
+.modal-text p {
+    font-family: FuturaRegular;
+    font-size: 18px;
+       
+}
+
+.modal-text h2 {
+    font-family: FuturaMedium;
+    font-size: 28px;
+       
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.reg {
+   width: 200px;
+   height: 55px;
+   background-color: #EA526F;
+   border: 0;
+   color: white;
+   font-family: FuturaMedium;
+   font-size: 20px;
+}
+
+.reg:hover {
+    cursor: pointer;
+}
+
+.thanks {
+    font-family: FuturaBold;
+}
+
+
+

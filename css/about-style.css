@@ -1,0 +1,160 @@
+@font-face {
+    font-family:FuturaRegular;
+    src: url(../fonts/FuturaLT.ttf);
+}
+
+@font-face {
+    font-family:FuturaMedium;
+    src: url(../fonts/FuturaLTMedium.ttf);
+}
+@font-face {
+    font-family:FuturaBold;
+    src: url(../fonts/FuturaLTBold.ttf);
+}
+
+@font-face {
+    font-family: FuturaLight;
+    src: url(../fonts/FuturaLTLight.ttf);
+}
+
+
+.about {
+    height: auto;
+   /* width: 100vw; */
+    padding: 10px 0 0 50px;
+    color:#515151;
+  }
+  .about h1 {
+     font-family: FuturaBold;
+     padding-top: 55px;
+     text-align: center;
+     font-size: 40pt;
+  }
+  
+  .about p {
+      font-family: FuturaLight;
+      font-size: 20pt;
+      text-align: center;
+      margin-top: -30px;
+      opacity: 0.7;
+      letter-spacing: 3px;
+  }
+
+  .vision {
+      display: flex;
+     justify-content: center;
+     color: #515151;
+    
+     margin: 50px 0 40px 0;
+  }
+
+  .vision h1{
+    font-family: FuturaBold;
+    font-size: 30pt;
+ }
+  
+ 
+
+  .vision div {
+
+    margin: 20px 0 20px 0;
+  }
+
+  .vision-text {
+    width: 500px;
+    padding: 50px;
+    background: #F7F7F7;
+
+  }
+
+  .vision-img {
+      background: url(../img/our-vision.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 500px;
+      width: 500px;
+      justify-content: end;
+      background-position-x: center;
+  }
+
+  .vision p {
+    font-family: FuturaRegular;
+    font-size: 18px;
+    opacity: 0.9;
+    letter-spacing: 2px;
+      line-height: 150%;
+  }
+
+
+  /* This is for the slider */
+.zlider{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: 700px;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    /* margin-left: 200px; */
+}
+
+@media screen and (max-width: 600px) {
+    .zlider{
+        /* margin-left: 150px; */
+    }
+}
+
+.item {
+    max-height: auto;
+    max-width: 350px;
+    /* background-color: red; */
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 10px rgba(153,153,153,0.3);
+    /* margin: 20px; */
+    margin: 10px 0 10px 0;
+    
+}
+
+.item h1 {
+    font-family: FuturaBold;
+    font-size: 20pt;
+    margin-top: 10px;
+    color: #515151;
+}
+
+.item h3 {
+    font-family: FuturaBold;
+    font-size: 15px;
+    margin-top: -10px;
+    color: #515151;
+}
+
+.item p {
+    font-family: FuturaRegular;
+    font-size: 16px;
+    color: #515151;
+}
+
+
+.item-1 div {
+    background: url(../img/kola.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.item-2 div {
+    background: url(../img/cole.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
